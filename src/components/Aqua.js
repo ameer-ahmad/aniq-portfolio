@@ -22,8 +22,8 @@ const Aqua = () => {
       </div>
       
       <div className="work-image-container">
-        <img src="/aqua1.png" alt="aqua1" />
-        <img src="/aqua2.png" alt="aqua2" />
+        <img src="https://ameer-ahmad.github.io/aniq-portfolio/aqua1.png" alt="aqua1" />
+        <img src="https://ameer-ahmad.github.io/aniq-portfolio/aqua2.png" alt="aqua2" />
       </div>
 
       <Footer />

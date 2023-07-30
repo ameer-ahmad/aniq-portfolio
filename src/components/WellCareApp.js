@@ -22,7 +22,7 @@ const WellCareApp = () => {
         </div>
 
         <div className="wellcare-images">
-            <img src="wellcare-images.png" alt="Wellcare" />
+            <img src="https://ameer-ahmad.github.io/aniq-portfoliowellcare-images.png" alt="Wellcare" />
         </div>
 
         <Footer />

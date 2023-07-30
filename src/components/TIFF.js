@@ -22,9 +22,9 @@ const TIFF = () => {
       </div>
       
       <div className="work-image-container">
-        <img src="/tiff1.png" alt="tiff1" />
-        <img src="/tiff2.png" alt="tiff2" />
-        <img src="/tiff3.png" alt="tiff3" />
+        <img src="https://ameer-ahmad.github.io/aniq-portfolio/tiff1.png" alt="tiff1" />
+        <img src="https://ameer-ahmad.github.io/aniq-portfolio/tiff2.png" alt="tiff2" />
+        <img src="https://ameer-ahmad.github.io/aniq-portfolio/tiff3.png" alt="tiff3" />
       </div>
 
       <Footer />

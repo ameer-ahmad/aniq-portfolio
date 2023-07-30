@@ -23,7 +23,7 @@ const FamousQuote = () => {
                 <h4>My Personal Feeling:</h4>
                 <p>The idea behind this remark resonates more deeply with me since I experience the same emotions whenever I look at projects or works of art. There is no such thing as good or terrible objectively; the concept of good and bad is only something that the human existence and mind may imagine based on societal norms.</p>
             </div>
-            <img alt="shakespeare" src="/shakespeare.png" />
+            <img alt="shakespeare" src="https://ameer-ahmad.github.io/aniq-portfolio/shakespeare.png" />
         </div>
         <Footer />
     </motion.div>

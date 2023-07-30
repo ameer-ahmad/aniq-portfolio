@@ -19,7 +19,7 @@ const Introduction = () => {
         <div className="introduction-background">
             <h1>Introduction & Background</h1>
             <div className="intro">
-                <img src="/aniq.png" alt='' />
+                <img src="https://ameer-ahmad.github.io/aniq-portfolio/aniq.png" alt='' />
                 <div className="intro-right">
                     <h3>Hello, my name is <span>Aniq Khan</span>. I am a <span>Graphic Designer</span>.</h3>
                     <p>I am a Graphic Designer at George Brown College. I have a strong passion for expressing my own creative ideas and expressive thoughts into my work, my goal is to be well recognized in the industry, And to achieve to a point to inspire others within the line of my work.</p>
@@ -40,7 +40,7 @@ const Introduction = () => {
                     <br />
                     <p>An even bigger goal is to be as valuable as possible learning as many skills and software as I can to increase my value as a service for people. I want to be at my best when it comes to my work. I want to be noticed within my line of work. But most importantly I just want to keep learning.</p>
                 </div>
-                <img src="/roadmap.png" alt="roadmap" />
+                <img src="https://ameer-ahmad.github.io/aniq-portfolio/roadmap.png" alt="roadmap" />
             </div>
             <div className='intro-container'>
                 <div className='left-container'>
@@ -49,7 +49,7 @@ const Introduction = () => {
                     <br />
                     <p>As for my education I am currently enrolled into George Brown College for a Graphic Design program. I am currently in my second year throughout the program. I am extremely excited about creating intricate pieces even when I am at school.</p>
                 </div>
-                <img src="/education.png" alt="education" />
+                <img src="https://ameer-ahmad.github.io/aniq-portfolio/education.png" alt="education" />
             </div>
             <div className='intro-container'>
                 <div className='left-container'>
@@ -60,7 +60,7 @@ const Introduction = () => {
                     <br />
                     <p>TV shows are amazing to me I prefer them over movies personally and it gets me more engaged I have plenty of TV shows that I personally love.</p>
                 </div>
-                <img src="/cinema.png" alt="cinema" />
+                <img src="https://ameer-ahmad.github.io/aniq-portfolio/cinema.png" alt="cinema" />
             </div>
 
             <div className='fav-movies'>

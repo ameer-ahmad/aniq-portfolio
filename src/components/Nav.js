@@ -17,7 +17,7 @@ const Nav = () => {
         <i class="fa fa-close"></i>
       </button>
       
-        <img src="/logo.png" alt="logo" />
+        <img src="https://ameer-ahmad.github.io/aniq-portfolio/logo.png" alt="logo" />
         <ul>
           <li className="title"><Link to="/">About Me</Link></li>
           <li><Link to="/introduction">Introduction</Link></li>

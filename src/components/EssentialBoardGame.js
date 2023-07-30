@@ -22,7 +22,7 @@ const EssentialBoardGame = () => {
         </div>
 
         <div className="essential-images">
-            <img src="essential-images.png" alt="Essential" />
+            <img src="https://ameer-ahmad.github.io/aniq-portfolioessential-images.png" alt="Essential" />
         </div>
 
         <Footer />

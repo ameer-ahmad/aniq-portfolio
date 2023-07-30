@@ -22,13 +22,13 @@ const CorporateMemphis = () => {
       </div>
       
       <div className="work-image-container">
-        <img src="/memphis1.png" alt="memphis1" />
-        <img src="/memphis2.png" alt="memphis2" />
-        <img src="/memphis3.png" alt="memphis3" />
-        <img src="/memphis4.png" alt="memphis4" />
-        <img src="/memphis5.png" alt="memphis5" />
-        <img src="/memphis6.png" alt="memphis6" />
-        <img src="/memphis7.png" alt="memphis7" />
+        <img src="https://ameer-ahmad.github.io/aniq-portfolio/memphis1.png" alt="memphis1" />
+        <img src="https://ameer-ahmad.github.io/aniq-portfolio/memphis2.png" alt="memphis2" />
+        <img src="https://ameer-ahmad.github.io/aniq-portfolio/memphis3.png" alt="memphis3" />
+        <img src="https://ameer-ahmad.github.io/aniq-portfolio/memphis4.png" alt="memphis4" />
+        <img src="https://ameer-ahmad.github.io/aniq-portfolio/memphis5.png" alt="memphis5" />
+        <img src="https://ameer-ahmad.github.io/aniq-portfolio/memphis6.png" alt="memphis6" />
+        <img src="https://ameer-ahmad.github.io/aniq-portfolio/memphis7.png" alt="memphis7" />
       </div>
 
       <Footer />

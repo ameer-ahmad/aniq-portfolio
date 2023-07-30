@@ -21,38 +21,38 @@ const SkillsToolset = () => {
         </div>
        
         <div className='skills-img'>
-            <img  src="/skills-text.png" alt='skills'/>  
+            <img  src="https://ameer-ahmad.github.io/aniq-portfolio/skills-text.png" alt='skills'/>  
         </div>
           
 
         <div className="skills-container">
             <div className="skill">
-                <img src="/skills1.png" alt='typography'/>
+                <img src="https://ameer-ahmad.github.io/aniq-portfolio/skills1.png" alt='typography'/>
                 <h5>Typography</h5>
                 <p>Able to use typography to express and configure intricate use of type into projects and artwork.</p>
             </div>
             <div className="skill">
-                <img src="/skills2.png" alt='Design Principles'/>
+                <img src="https://ameer-ahmad.github.io/aniq-portfolio/skills2.png" alt='Design Principles'/>
                 <h5>Design Principles</h5>
                 <p>Configuring designing principles with poster design and in any type of design to express the flow of design.</p>
             </div>
             <div className="skill">
-                <img src="/skills3.png" alt='UI/UX Design'/>
+                <img src="https://ameer-ahmad.github.io/aniq-portfolio/skills3.png" alt='UI/UX Design'/>
                 <h5>UI/UX Design</h5>
                 <p>User design with app creating, using figma to create a well thought out design to execute the app design.</p>
             </div>
             <div className="skill">
-                <img src="/skills4.png" alt='Illustration'/>
+                <img src="https://ameer-ahmad.github.io/aniq-portfolio/skills4.png" alt='Illustration'/>
                 <h5>Illustration</h5>
                 <p>Able to create illustrations and intricate designs to any needs.</p>
             </div>
             <div className="skill">
-                <img src="/skills5.png" alt='Ideation'/>
+                <img src="https://ameer-ahmad.github.io/aniq-portfolio/skills5.png" alt='Ideation'/>
                 <h5>Ideation</h5>
                 <p>Important to have a good sense of ideation, and generating creative ideas and using them effectively.</p>
             </div>
             <div className="skill">
-                <img src="/skills6.png" alt='Color Theory '/>
+                <img src="https://ameer-ahmad.github.io/aniq-portfolio/skills6.png" alt='Color Theory '/>
                 <h5>Color Theory </h5>
                 <p>Strong sense of color theory and matching specific colors to making a well orientated design.</p>
             </div>
