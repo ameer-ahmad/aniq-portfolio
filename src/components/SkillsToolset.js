@@ -64,7 +64,7 @@ const SkillsToolset = () => {
                 <h2>Skills</h2>
             </div>
             <div className="writing-img">
-                <img src='/Writing.png' alt='writing' />
+                <img src='https://ameer-ahmad.github.io/aniq-portfolio/Writing.png' alt='writing' />
             </div>  
         </div>
 
@@ -77,37 +77,37 @@ const SkillsToolset = () => {
                 <li>Color sense</li>
                 <li>Composition</li>
             </ul>
-            <img src='/other-skills-shapes.png' alt='shapes' />
+            <img src='https://ameer-ahmad.github.io/aniq-portfolio/other-skills-shapes.png' alt='shapes' />
         </div>
 
         <div className="toolset-img">
-            <img src='/toolset.png' alt='toolset' />
+            <img src='https://ameer-ahmad.github.io/aniq-portfolio/toolset.png' alt='toolset' />
         </div>
         
 
         <div className="toolset-container">
             <div className="tool-container">
-               <img src='/tool1.png' alt='Adobe Illustrator'/>
+               <img src='https://ameer-ahmad.github.io/aniq-portfolio/tool1.png' alt='Adobe Illustrator'/>
                <p className="tool-title">Adobe Illustrator</p>
                <p className="tool-desc">I am competent and knowledgeable throughout the application, and I am able to comprehend ideas and produce things using them.</p>
             </div>
             <div className="tool-container">
-               <img src='/tool2.png' alt='Adobe InDesign'/>
+               <img src='https://ameer-ahmad.github.io/aniq-portfolio/tool2.png' alt='Adobe InDesign'/>
                <p className="tool-title">Adobe InDesign</p>
                <p className="tool-desc">Capable of copyfitting text, type alignment, poster grids, etc. efficiently. I can utilize the application but am knowledgeable about it.</p>
             </div>
             <div className="tool-container">
-               <img src='/tool3.png' alt='Adobe Photoshop'/>
+               <img src='https://ameer-ahmad.github.io/aniq-portfolio/tool3.png' alt='Adobe Photoshop'/>
                <p className="tool-title">Adobe Photoshop</p>
                <p className="tool-desc">I've used Photoshop before. I have the ability to quickly make goods for clients in a variety of methods. I can design posters, advertising, mockups, and other visual materials.</p>
             </div>
             <div className="tool-container">
-               <img src='/tool4.png' alt='Miro'/>
+               <img src='https://ameer-ahmad.github.io/aniq-portfolio/tool4.png' alt='Miro'/>
                <p className="tool-title">Miro</p>
                <p className="tool-desc">Web Design and UI/UX design, Miro is a website to either create webflows generating ideas. I am able to create websites or icons.</p>
             </div>
             <div className="tool-container">
-               <img src='/tool5.png' alt='Figma'/>
+               <img src='https://ameer-ahmad.github.io/aniq-portfolio/tool5.png' alt='Figma'/>
                <p className="tool-title">Figma</p>
                <p className="tool-desc">Figma is a program allows UI/UX interface designs. It allows to make intricate designs making smooth layouts and interactive design prototypes. </p>
             </div>

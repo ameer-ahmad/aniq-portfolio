@@ -65,35 +65,35 @@ const Introduction = () => {
 
             <div className='fav-movies'>
                 <div className='fav-movie'>
-                    <img src='/movie1.png' alt='Everything Every Where All At Once' />
+                    <img src='https://ameer-ahmad.github.io/aniq-portfolio/movie1.png' alt='Everything Every Where All At Once' />
                     <p>Everything Every Where All At Once</p>
                 </div>
                 <div className='fav-movie'>
-                    <img src='/movie2.png' alt='Forgotten' />
+                    <img src='https://ameer-ahmad.github.io/aniq-portfolio/movie2.png' alt='Forgotten' />
                     <p>Forgotten</p>
                 </div>
                 <div className='fav-movie'>
-                    <img src='/movie3.png' alt='Parasite' />
+                    <img src='https://ameer-ahmad.github.io/aniq-portfolio/movie3.png' alt='Parasite' />
                     <p>Parasite</p>
                 </div>
                 <div className='fav-movie'>
-                    <img src='/movie4.png' alt='Forest Gump' />
+                    <img src='https://ameer-ahmad.github.io/aniq-portfolio/movie4.png' alt='Forest Gump' />
                     <p>Forest Gump</p>
                 </div>
                 <div className='fav-movie'>
-                    <img src='/movie5.png' alt='Barry' />
+                    <img src='https://ameer-ahmad.github.io/aniq-portfolio/movie5.png' alt='Barry' />
                     <p>Barry</p>
                 </div>
                 <div className='fav-movie'>
-                    <img src='/movie6.png' alt='The Bear' />
+                    <img src='https://ameer-ahmad.github.io/aniq-portfolio/movie6.png' alt='The Bear' />
                     <p>The Bear</p>
                 </div>
                 <div className='fav-movie'>
-                    <img src='/movie7.png' alt='Breaking Bad' />
+                    <img src='https://ameer-ahmad.github.io/aniq-portfolio/movie7.png' alt='Breaking Bad' />
                     <p>Breaking Bad</p>
                 </div>
                 <div className='fav-movie'> 
-                    <img src='/movie8.png' alt='Better Call Saul' />
+                    <img src='https://ameer-ahmad.github.io/aniq-portfolio/movie8.png' alt='Better Call Saul' />
                     <p>Better Call Saul</p>
                 </div>
             </div>

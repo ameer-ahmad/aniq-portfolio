@@ -34,7 +34,7 @@ const WeatherApp = () => {
                 </div>
             </div>
             <div className='weather-right'>
-                <img src='/layout.png' alt='layout' />
+                <img src='https://ameer-ahmad.github.io/aniq-portfolio/layout.png' alt='layout' />
             </div>
         </div> 
         <div className='general-wireframes'>
@@ -42,7 +42,7 @@ const WeatherApp = () => {
         </div>
         
         <div className='wireframe-container'>
-            <img src='/weather-wireframe.png' alt='Weather App Wireframe' />
+            <img src='https://ameer-ahmad.github.io/aniq-portfolio/weather-wireframe.png' alt='Weather App Wireframe' />
         </div>
 
         <div className='weather-conclusion'>
