@@ -1,38 +1,898 @@
-.App {
-  text-align: center;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+    font-family: cocogoose;
+    src: url('./cocogoose/Cocogoose Pro Light-trial.ttf')
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+    font-family: 'cocogoose', sans-serif;
+    font-weight: 100;
+    overflow-x: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#root {
+    display: flex;
+
+    position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+.navigation {
+    height: 937px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content:space-around;
+    position: sticky;
+    top: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navigation li {
+    list-style: none;
+    margin-bottom: 20px;
+    color: #989898;
+    cursor: pointer;
+}
+
+.navigation .title {
+    font-weight: 650;
+    font-size: 16px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 75%;
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 136px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.home img {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: black;
+}
+
+.introduction-background h1 {
+    text-align: center;
+    font-size: 96px;
+    font-family: 'Raleway', sans-serif;
+    width: 75%;
+    font-weight: 300;
+    margin: 43px auto 66px;
+}
+
+.introduction-background {
+    margin: 0 142px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.introduction-background .intro {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 111px;
+}
+
+.introduction-background .intro img {
+    width: 444px;
+    height: 650px;
+}
+
+.intro-right {
+    margin-left: 37px;
+}
+
+.intro-right h3 {
+    font-size: 53px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.intro-right h3 span {
+    color: #FF9979;
+}
+
+.intro-right p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.intro-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 111px;
+}
+
+.left-container {
+    width: 482px;
+}
+
+.left-container h2 {
+    font-size: 76px;
+    margin-bottom: 35px;
+}
+
+.left-container p {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.fav-movies {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content:space-evenly;
+    margin-bottom:200px
+}
+
+.fav-movies .fav-movie {
+    width: 25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-bottom: 33px;
+}
+
+.fav-movies .fav-movie p {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    width: 200px;
+    margin-top: 22px;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.back-to-top {
+    margin-bottom: 25px;
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 650;
+    line-height: 44px;
+    cursor: pointer;
+}
+
+.footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 91px;
+    border-top: 10px solid #F8F8F8;
+    padding: 5px 50px 0;
+    align-items: center;
+}
+
+.footer-container p {
+    color: #D9D9D9;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.famous-quote h1 {
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 1000px;
+    margin: 43px auto 100px;
+}
+
+.quote-container {
+    display: flex;
+    margin-bottom: 100px;
+    padding: 0 100px;
+}
+
+.quote-left {
+    padding-right: 39px;
+}
+
+.quote-left h2 {
+    color: #000;
+    font-family: Raleway;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 100px;
+}
+
+.quote-left h4 {
+    color: #000;
+    font-family: Raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+
+.quote-left p {
+    color: #000;
+    font-family: Raleway;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-right: 133px;
+}
+
+.quote-container img {
+    object-fit: contain;
+}
+ 
+
+.skillsTools {
+    margin: 0 158px;
+}
+
+.skills-title h1 {
+    color: #000;
+    text-align: center;
+    font-family: raleway;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 43px;
+}
+
+.skills-title p {
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 696px;
+    margin: 16px auto 50px;
+}
+
+.skills-img {
+    width: 100%;
+}
+
+.skills-img img {
+    width: 100%;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    row-gap: 47px;
+}
+
+.skills-container .skill {
+    width: 348px;
+    text-align: center;
+}
+
+.skills-container .skill h5 {
+    color: #76D1C4;
+    text-align: center;
+    font-family: raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 44px; /* 137.5% */
+    margin-top: 15px;
+}
+
+.skills-container .skill p {
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 150% */
+    margin-top: 29px;
+    width: 100%;
+}
+
+.other-skills {
+    display: flex;
+    justify-content:space-between;
+    gap: 8px;
+    align-items:center;
+    width: 100%;
+}
+
+.other-skills .writing-img img {
+    width: 100%;
+}
+
+.other-skills h2 {
+    color: #76D1C4;
+    font-family: raleway;
+    font-size: 163px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center;
+}
+
+.other-skills-container {
+    background-color: #76D1C4;
+    border-radius: 86px;
+    margin-top: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.other-skills-container ul {
+    color: #F4F7E7;
+    font-family: raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 62px; /* 193.75% */
+    padding-left: 89px;
+}
+
+.other-skills-container img {
+    position: relative;
+    bottom: 25px;
+}
+
+.toolset-img {
+    margin-top: 35px;
+    margin-bottom: 148px;
+}
+
+.toolset-img img {
+    width: 100%;
+}
+
+.toolset-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    row-gap: 70px;
+    margin-bottom: 100px;
+}
+
+.tool-container {
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+.tool-container .tool-title {
+    color: #76D1C4;
+    text-align: center;
+    font-family: raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 44px; /* 137.5% */
+    width: 100%;
+    margin: 0;
+}
+
+.tool-container .tool-desc {
+    color: #989898;
+    text-align: center;
+    font-family: raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 100%;
+    margin: 0;
+}
+
+.work-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px 132px 200px;
+    gap: 22px;
+}
+
+.work-container .overlay-container {
+    width: 45%;
+}
+
+.work-container .work-img img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.memphis-style {
+    margin: 0 121px;
+}
+
+.title-container h1 {
+    color: #000;
+    text-align: center;
+    font-family: raleway;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 50px;
+}
+
+.title-container p:first-of-type {
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.title-container p:last-of-type {
+    color: #000;
+    text-align: center; 
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px; /* 275% */
+}
+
+.work-image-container {
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.work-image-container img {
+    width: 100%;
+}
+
+.tiff {
+    margin: 0 194px;
+}
+
+.aqua {
+    margin: 0 121px;
+}
+
+.point-cross {
+    margin: 0 88px;
+}
+
+.summary-container {
+    border: 8px solid black;
+    width: 465px;
+    padding: 22px 37px;
+    height: 325px;
+}
+
+.left-text-container h2 {
+    color: #000;
+    font-family: Raleway;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+
+.left-text-container p {
+    color: #000;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.text-image-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.text-image-container .image-container {
+    float: none;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.design-process {
+    width: 600px;
+}
+
+.rv-image-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 22px;
+    margin-bottom: 100px;
+}
+
+.rv-image-container img {
+    width: 100%;
+}
+
+.rv-image-container img:nth-of-type(1) {
+    margin-top: 50px;
+}
+
+
+.rv-image-container img:nth-of-type(3) {
+    width: 67%;
+}
+
+.rv-image-container .shirt-container div {
+    width: 48%;
+}
+
+
+.rv-image-container .shirt-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather-app {
+    margin: 0 125px;
+}
+
+.weather-top {
+    margin-top: 69px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.weather-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 505px;
+}
+
+.weather-left h2 {
+    color: #000;
+    font-family: Raleway;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.weather-left p {
+    color: #000;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.weather-right { 
+    width: 45%;
+}
+
+.weather-right img {
+    width: 100%;
+}
+
+.general-wireframes {
+    color: #000;
+    font-family: Raleway;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.wireframe-container {
+    width: 100%;
+}
+
+.wireframe-container img {
+    width: 100%;
+}
+
+.weather-conclusion {
+    width: 795px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.weather-conclusion h3 {
+    color: #000;
+    font-family: Raleway;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.weather-conclusion p {
+    color: #000;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.weather-conclusion p:last-of-type {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.weather-image {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.weather-image img {
+    width: 100%;
+}
+
+.essential-images {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.essential-images img {
+    width: 100%;
+}
+
+.wellcare-images {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.wellcare-images img {
+    width: 100%;
+}
+
+.overlay-container {
+    position: relative;
+}
+
+.overlay-container a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.overlay-container a img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    width: 90%;
+    height: 90%;
+    pointer-events: none;
+    background-color: rgba(0,0,0,0);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 50px;
+}
+
+.overlay-container:hover .middle {
+    background-color: rgba(0,0,0,0.5);
+    opacity: 1;
+}
+
+.text {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+.icon i {
+    font-size: 50px;
+}
+
+.close {
+    position: relative;
+    left: 80%;
+    display: none;
+}
+
+.mobile {
+    width: 100vw;
+    position: absolute;
+    z-index: 100;
+    background-color: white;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    .close {
+        display: block;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .introduction-background {
+        width: 95%;
+        margin: auto;
+    }
+
+    .mobile-menu {
+        display: block
+    }
+
+    .home {
+        justify-content: center;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .famous-quote h1{
+        margin-top: 100px;
+    }
+
+    .skillsTools {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .work-container {
+        width: 95%; 
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .intro, .intro-container {
+        flex-direction: column;
+        align-items: center;
+        width: 95%;
+    }
+
+    .left-container {
+        width: 100%;
+    }
+
+    .container h1 {
+        margin-top: 100px;
+        font-size: 50px;
+    }
+
+    .container h2{
+        font-size: 40px;
+    }
+
+    .fav-movies {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .work-container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .work-container .overlay-container {
+        width: 100%;
+    }
+
+    .text-image-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .point-cross {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .point-cross .design-process {
+        width: 100%;
+    }
+
+    .tiff, .aqua, .weather-app {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .weather-conclusion {
+        width: 100%;
+    }
+
 }
