@@ -14,7 +14,7 @@ const Footer = () => {
         <div className='footer-container'>
             <p>&copy; Aniq Khan Copyrights Reserved</p>
             <div>
-                <img src="https://ameer-ahmad.github.io/aniq-portfolio/Behance.png" alt="behance" />
+                <a href="https://www.behance.net/aniqkhan" target='_blank' rel='noreferrer'><img src="https://ameer-ahmad.github.io/aniq-portfolio/Behance.png" alt="behance" /></a>
                 <a href="https://www.linkedin.com/in/aniq-khan-4631951b7/" target='_blank' rel='noreferrer'><img src="https://ameer-ahmad.github.io/aniq-portfolio/LinkedIn.png" alt="LinkedIn" /></a>
                 <a href='https://dribbble.com/AniqKhan' target='_blank' rel='noreferrer'><img src="https://ameer-ahmad.github.io/aniq-portfolio/dribbble.png" alt="dribbble" /></a>
             </div>

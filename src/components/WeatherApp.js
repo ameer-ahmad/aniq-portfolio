@@ -56,7 +56,7 @@ const WeatherApp = () => {
         </div>
 
         <div className="weather-image">
-            <img src="https://ameer-ahmad.github.io/aniq-portfolioweather-background.png" alt="Weather Images" />
+            <img src="https://ameer-ahmad.github.io/aniq-portfolio/weather-background.png" alt="Weather Images" />
         </div>
       
         <Footer />

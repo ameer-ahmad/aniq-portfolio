@@ -338,6 +338,7 @@ a:hover {
     gap: 8px;
     align-items:center;
     width: 100%;
+    margin-top: 50px;
 }
 
 .other-skills .writing-img img {
@@ -742,7 +743,7 @@ a:hover {
 .text {
     color: #FFF;
     text-align: center;
-    font-family: Inter;
+    font-family: Raleway;
     font-size: 64px;
     font-style: normal;
     font-weight: 900;

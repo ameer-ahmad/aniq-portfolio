@@ -20,11 +20,11 @@ const AnimatedRoutes = () => {
   return (
     <AnimatePresence>
         <Routes location={location} key={location.pathname}>
-          <Route path="/" element={<Home />}/>
+          <Route path="/about" element={<Home />}/>
           <Route path="/introduction"  element={<Introduction />} />
           <Route path="/philosophical-quote"  element={<FamousQuote />} />
           <Route path="/skills-and-toolset"  element={<SkillsToolset />} />
-          <Route path="/work"  element={<Work />} />
+          <Route path="/"  element={<Work />} />
           <Route path="/corporate-memphis-style"  element={<CorporateMemphis />} />
           <Route path="/tiff-posters-portfolio-posters"  element={<TIFF />} />
           <Route path="/aqua-water-bottle"  element={<Aqua />} />

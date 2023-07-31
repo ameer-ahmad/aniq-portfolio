@@ -19,14 +19,14 @@ const Nav = () => {
       
         <img src="https://ameer-ahmad.github.io/aniq-portfolio/logo.png" alt="logo" />
         <ul>
-          <li className="title"><Link to="/">About Me</Link></li>
+          <li className="title"><Link to="/about">About Me</Link></li>
           <li><Link to="/introduction">Introduction</Link></li>
           <li><Link to="/philosophical-quote">Famous Quote</Link></li>
           <li><Link to="/skills-and-toolset">Skills & Toolset</Link></li>
         </ul>
 
         <ul>
-          <li className="title"><Link to="/work">Work</Link></li>
+          <li className="title"><Link to="/">Work</Link></li>
           <li><Link to="/corporate-memphis-style">Corporate Memphis Illustrations</Link></li>
           <li><Link to="/point-cross-beach">Point Cross Beach RV Park</Link></li>
           <li><Link to="/essential-board-game">Essential Board Game</Link></li>
