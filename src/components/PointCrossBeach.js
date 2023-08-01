@@ -21,14 +21,8 @@ const PointCrossBeach = () => {
             <p>Applications Used: Adobe Photoshop, Adobe Illustrator</p>
         </div>
 
-        <div className="text-image-container">
-            <div className="summary-container left-text-container">
-                <h2>[Summary]</h2>
-                <p>Experience the awe-inspiring image of an RV emerging boldly from a crashing wave, accompanied by the ethereal silhouette of an abstract sun, in this captivating billboard art designed exclusively for Point Cross Beach RV Park in Nova Scotia.</p>
-            </div>
-            <div className='image-container'>
-                <img src="https://ameer-ahmad.github.io/aniq-portfolio/point-cross.png" alt="Point Cross Beach RV Park" />
-            </div>
+        <div className='image-container'>
+            <img src="https://ameer-ahmad.github.io/aniq-portfolio/point-cross.png" alt="Point Cross Beach RV Park" />
         </div>
 
         <div className="text-image-container">
@@ -37,7 +31,7 @@ const PointCrossBeach = () => {
                 <p>The creation of the Point Cross RV Beach Park billboard involved a meticulous design process, capturing the essence of this unique destination by skillfully depicting an RV emerging from a crashing wave, complemented by an abstract sun symbolizing warmth and radiance. With careful attention to detail, perspective, color, and composition, the artwork invites viewers to embark on their own adventures and embrace the serene beauty of Point Cross Beach RV Park.</p>
             </div>
             <div className='image-container'>
-                <img src="https://ameer-ahmad.github.io/aniq-portfolio/web-design2.png" alt="Web Design" />  
+                <img style={{width: "448px"}} src="https://ameer-ahmad.github.io/aniq-portfolio/web-design2.png" alt="Web Design" />  
             </div>
         </div>
 
