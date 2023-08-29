@@ -17,7 +17,7 @@ const WeatherApp = () => {
     >
         <div className="title-container">
             <h1>Weather App</h1>
-            <p>This app is created for my portfolio specifically to show and demonstrate me skills of UI/UX design.</p>
+            <p>This app is created for my portfolio specifically to show and demonstrate my skills of UI/UX design.</p>
             <p>Applications Used: Figma</p>
         </div>
 

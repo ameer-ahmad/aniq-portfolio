@@ -62,7 +62,7 @@ const Work = () => {
             <div className="overlay-container">
                 <Link to="/weather-app"><img src="https://ameer-ahmad.github.io/aniq-portfolio/work7.png" alt="Weather" /></Link>
                 <div className="middle">
-                <div className="text">WellCare App</div>
+                <div className="text">Weather App</div>
                 </div>
             </div>
 
