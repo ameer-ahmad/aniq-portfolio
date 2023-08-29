@@ -21,9 +21,9 @@ const WeatherApp = () => {
             <p>Applications Used: Figma</p>
         </div>
 
-        <div className="weather-image">
+        <a className="weather-image" href="https://www.figma.com/file/pVT5bOYzbD4hV1RfQ25MvN/Wheather-App?type=design&node-id=32-315&mode=design" target='_blank' rel='noreferrer'>
             <img src="https://ameer-ahmad.github.io/aniq-portfolio/weather-background2.png" alt="Weather Images" />
-        </div>
+        </a>
       
         <Footer />
         

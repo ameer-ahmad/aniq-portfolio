@@ -21,9 +21,9 @@ const WellCareApp = () => {
             <p>Applications Used: Figma</p>
         </div>
 
-        <div className="wellcare-images">
+        <a className="wellcare-images" href="https://www.figma.com/proto/aRXmPB9eTXsnVb5cAsEiKw/Well-Care?page-id=0%3A1&type=design&node-id=19-24&viewport=333%2C343%2C0.13&scaling=scale-down&starting-point-node-id=19%3A24" target='_blank' rel="noreferrer">
             <img src="https://ameer-ahmad.github.io/aniq-portfolio/wellcare-image.png" alt="Wellcare" />
-        </div>
+        </a>
 
         <Footer />
         
